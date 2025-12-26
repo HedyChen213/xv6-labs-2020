@@ -23,7 +23,7 @@ while(!condition){
 release(lk);
 ```
 * sleep(chan, lk) 會：
-1. 原子地釋放 lk
-2. 將 process 設為 SLEEPING
-3. 呼叫 sched() 讓出 CPU
-4. 被 wakeup(chan) 喚醒後再重新 acquire lk
+    1. 原子地釋放 lk
+    2. 將 process 設為 SLEEPING
+    3. 呼叫 sched() 讓出 CPU
+    4. 被 wakeup(chan) 喚醒後再重新 acquire lk
