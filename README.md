@@ -5,10 +5,6 @@
 * find
 * xargs
 
-## 簡介
-本專案為 **MIT 6.S081 Fall 2020** 作業系統實驗的 **util lab 1**。
-
-
 ## Lab 1: sleep  
 實作一個 xv6 使用者層程式 `sleep`，用來讓目前行程睡眠指定的 **ticks** 數。
 - 作業說明參考：
