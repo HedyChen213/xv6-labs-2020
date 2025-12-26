@@ -1,4 +1,9 @@
-# xv6-labs-2020 — util lab: sleep
+# xv6-labs-2020 — util lab1:
+* sleep
+* pingpong
+* Primes
+* find
+* xargs
 
 ## 簡介
 本專案為 **MIT 6.S081 Fall 2020** 作業系統實驗的 **util lab 1**。
