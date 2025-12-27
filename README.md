@@ -37,3 +37,11 @@ release(lk);
 父行程 - 子行程互相取得對方PID並輸出
 * 使用 pipe 做 PID 傳輸（非共享全域）
 * 判斷 read、write 資料完整傳輸 (固定長度)
+
+
+## Lab 1-3: primes
+使用pipe和fork 輸出 2-35 中的質數
+- 作業筆記：https://www.notion.so/Lab-1-3-Primes-2d61bda52e4a802397afef6d750caa17?source=copy_link
+### 重點
+* 多層pipe之間的傳輸
+* pipe的端口控制
