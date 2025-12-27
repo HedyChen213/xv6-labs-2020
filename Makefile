@@ -153,6 +153,7 @@ UPROGS=\
 	$U/_sleep\
 	$U/_pingpongpc\
 	$U/_pingpong\
+	$U/_primes\
 
 ifeq ($(LAB),syscall)
 UPROGS += \
